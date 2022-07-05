@@ -22,7 +22,7 @@ def get_a_list_of_words():
     creds = service_account.Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=SCOPES)
 
     # The ID of a sample spreadsheet.
-    SAMPLE_SPREADSHEET_ID = '1DtZKwqfoDeSHb0mGGoeEvh_Kizfs8a42XozEh6ODaxI'
+    SAMPLE_SPREADSHEET_ID = 'XXX'
     service = build('sheets', 'v4', credentials=creds)
 
     #Call the Sheets API
